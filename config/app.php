@@ -1,5 +1,5 @@
 <?php
-
+/*テスト編集*/
 return [
 
     /*
@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'My Applications',
+    'name' => 'My Application',
 
     /*
     |--------------------------------------------------------------------------
