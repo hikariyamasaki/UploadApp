@@ -5,7 +5,7 @@
 //});
 
 
-Route::get('/','WelcomControllwer@index');
-Route::get('contact', 'WelcomController@contact');
+Route::get('/', 'WelcomControllwer@index');
+Route::get('contact', 'WelcomeController@contact');
 
  ?>

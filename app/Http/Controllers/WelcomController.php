@@ -15,7 +15,7 @@ class WelcomController extends Controller{
 
     piblic function contact()
     {
-      return "contact";
+      return view("contact");
     }
 
 }
