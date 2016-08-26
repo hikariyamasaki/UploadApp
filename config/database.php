@@ -47,9 +47,9 @@ return [
     'connections' => [
 
         'sqlite' => [
-            'driver' => 'sqlite',
-            'database' => storage_path()./database.sqlite' d,
-            'prefix' => '',
+            'driver'   => 'sqlite',
+            'database' => storage_path().'/database.sqlite',  //サイトにはっこの行の’,’はなかったけど書いてみた
+            'prefix'   => '',
         ],
 
         'mysql' => [
